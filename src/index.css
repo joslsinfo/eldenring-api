@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,400;0,700;1,500&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  font-size: 1.2rem;
+  background-color: #f7f7f8;
+  color: #060606;
+}
+
+
+img{
+    width: 100%;
+}
+
+
+.app-container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+   
+}
+
+.eldenCard{
+    border: 3px solid salmon;
+  
+    padding: 2rem;
+    margin: 1em;
+    background-color: #f7f7f8;
+    line-height: 1.5;
+}
+h1{
+ 
+   border-bottom: 2px solid salmon;
+   margin: 0  auto 1rem auto;
+   width:40%;
+   text-align: center;
+ 
+}
+h2{
+    color:#f7f7f8;
+    background-color: #060606;
+    width:50%;
+    margin: 0 0 .5rem 0;
+    text-align: center;
+}
+.title{
+    font-weight: bold;
+}
