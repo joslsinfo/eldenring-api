@@ -1,21 +1,9 @@
-import React from 'react'
+import BCard from "react-bootstrap/Card";
 
-const Card = ({elden}) => {
-    console.log(elden);
-   
-  return (
-    <div className="eldenCard">
-        <p className="para"> <span className="title">Description :</span> {elden.description}</p>
-        <h2>{elden.id}</h2>
-        <div className="images">
-          <img src={elden.image} alt={"photo " + elden.name} />
-        </div>
-        <p><span className="title">Location : </span> {elden.location}</p>
-        <p><span className="title">Name :</span> {elden.name}</p>
+const DEFAULT_WIDTH = "18rem";
 
+const Card = ({ width = DEFAULT_WIDTH, children }) => {
+  return <BCard style={{ width: width }}>{children}</BCard>;
+};
 
-    </div>
-  )
-}
-
-export default Card
+export default Card;
